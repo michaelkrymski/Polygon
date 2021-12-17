@@ -1,6 +1,6 @@
 // scripts/deploy.js
 async function main() {
-    const Contract = await ethers.getContractFactory("ContractV5");
+    const Contract = await ethers.getContractFactory("ContractV6");
     console.log("Deploying Contract proxy...");
     const contract = await upgrades.deployProxy(Contract, [], { initializer: 'initialize' });
     console.log("Contract deployed to:", contract.address);

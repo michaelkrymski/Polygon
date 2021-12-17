@@ -7,7 +7,7 @@ import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol"; /
 import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol"; //Roles
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"; //No Construct
 
-contract ContractV5 is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, PausableUpgradeable, AccessControlUpgradeable {
+contract ContractV6 is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, PausableUpgradeable, AccessControlUpgradeable {
 
     bytes32 public constant OWNER = keccak256("OWNER"); 
     bytes32 public constant ADMINISTRATOR = keccak256("ADMINISTRATOR"); //Administrators
@@ -41,7 +41,7 @@ contract ContractV5 is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable
     constructor() initializer {}
 
     function initialize() initializer public {
-        __ERC20_init("MKTest3", "MKT");
+        __ERC20_init("Krimea", "KRM");
         __ERC20Burnable_init();
         __Pausable_init();
         __AccessControl_init();

@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\michael.krymski\\Documents\\Crypto\\Polygon\\contracts\\ContractV5.sol": {
-      "lastModificationDate": 1639355506347,
-      "contentHash": "69458a2b459356570cff159b54946868",
+      "lastModificationDate": 1639713360752,
+      "contentHash": "5c0c2f10d7eaa356e9f1195d1403c976",
       "sourceName": "contracts/ContractV5.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -39,7 +39,7 @@
         "^0.8.10"
       ],
       "artifacts": [
-        "ContractV5"
+        "ContractV6"
       ]
     },
     "C:\\Users\\michael.krymski\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol": {
