@@ -75,7 +75,7 @@ contract ContractV6 is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable
         return (variables[0], variables[1], variables[2]);
     }
     
-    function roleTransfer(address developer, bytes32 role) public onlyRole(OWNER) {
+    function promoteAdmin(address developer, bytes32 role) public onlyRole(OWNER) {
         _grantRole(role, developer);
     }
 

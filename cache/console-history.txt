@@ -1,3 +1,9 @@
+await contract.checkValue()
+await contract.checkValue
+const contract = await Contract.attach("0x5e8b5080C038749563285E14C0BF1253fb8D32B5")
+")
+const contract = await Contract.attach("0x5e8b5080C038749563285E14C0BF1253fb8D32B5
+const Contract = await ethers.getContractFactory("ContractV6")
 exit
 await contract.checkValue()
 await contract.retrieve(checkValue)
