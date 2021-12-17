@@ -447,8 +447,8 @@
       ]
     },
     "C:\\Users\\michael.krymski\\Documents\\Crypto\\Polygon\\contracts\\ContractV6.sol": {
-      "lastModificationDate": 1639713564671,
-      "contentHash": "e1f28cb3fe13839b5bde147b26fe6cb4",
+      "lastModificationDate": 1639715132861,
+      "contentHash": "3cb8b89246509be433082289d09f7a01",
       "sourceName": "contracts/ContractV6.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -485,6 +485,47 @@
       ],
       "artifacts": [
         "ContractV6"
+      ]
+    },
+    "C:\\Users\\michael.krymski\\Documents\\Crypto\\Polygon\\contracts\\ContractV7.sol": {
+      "lastModificationDate": 1639715416145,
+      "contentHash": "95c4a03dda69653a069cd9c5fbf8313f",
+      "sourceName": "contracts/ContractV7.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "ContractV7"
       ]
     }
   }
