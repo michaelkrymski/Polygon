@@ -23,8 +23,8 @@ module.exports = {
     polygon: {
       url: `https://polygon-mainnet.g.alchemy.com/v2/${alchemyApiKey}`,
       accounts: [`${privateKey}`],
-      gas: "auto", //2100000,
-	    gasPrice: "auto" //110 * 1000000000, //110 Gwei 
+      gas: 210000, //2100000,
+	    gasPrice: 40 * 1000000000, //110 Gwei 
     }
   }
 };

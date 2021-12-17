@@ -1,0 +1,5 @@
+exit
+await contract.checkValue()
+await contract.retrieve(checkValue)
+const contract = await Contract.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const Contract = await ethers.getContractFactory("ContractV5")
